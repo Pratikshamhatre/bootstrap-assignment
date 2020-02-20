@@ -1,0 +1,624 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: ‘FontAwesome’;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.blueColor {
+    color: #007bff;
+}
+
+.blueBackgroundColor {
+    background-color: #007bff;
+}
+
+.whiteBackground {
+    background-color: #ffffff;
+}
+
+.backgroundColor {
+    background-color: #eeeeee;
+}
+
+.heading {
+    font-size: 48px;
+}
+
+nav {
+    height: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+    font-weight: 700;
+    font-size: 18px !important;
+    margin-right: 30px;
+}
+
+.brandName {
+    font-size: 26px !important;
+    font-weight: 700;
+    color: #000000;
+    padding-left: 350px !important;
+}
+
+.main {
+    height: 980px;
+    background-image: url("images/women-face-closeup-black_background.jpg");
+    position: relative;
+    z-index: -1;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.mainText {
+    z-index: 100;
+}
+
+.name {
+    font-size: 68px;
+    font-weight: 600;
+}
+
+.designation {
+    font-size: 42px;
+}
+
+.aboutMe {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.passport {
+    height: 150px;
+    width: 155px;
+}
+
+.fields {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fieldData {
+    font-size: 16px;
+}
+
+.gray {
+    color: #808080;
+}
+
+.darkGray {
+    color: #696969;
+}
+
+.aboutPara {
+    font-size: 19px;
+}
+
+.aboutServices {
+    padding-top: 60px;
+    width: 100%;
+}
+
+.aboutTitle {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.aboutMeRow {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.serviceHeading {
+    margin-top: 40px;
+}
+
+.cardService {
+    margin-bottom: 40px;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 1px -2px rgba(0, 0, 0, 0.1);
+}
+
+.cardHead {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid #007bff;
+    padding: 50px;
+    align-self: center;
+    position: relative;
+}
+
+.icn {
+    font-size: 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlayBlue {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.roundedBorder {
+    border-radius: 25px;
+}
+
+.speciality {
+    height: 450px;
+    background-image: url("images/Snow-Background.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.spcl {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.num {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.circle1 {
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+    padding: 20px 30px;
+    align-self: center;
+    position: relative;
+}
+
+.icn1 {
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.plus {
+    font-size: 38px;
+    margin-top: -28px;
+}
+
+.font12 {
+    font-size: 12px;
+
+}
+
+.cardPortfolio {
+    margin-bottom: 40px;
+    box-shadow: 5px 12px 15px -15px gray;
+    position: relative;
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cardImage {
+    height: 198px;
+}
+
+.cardFooter
+{
+  
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-left: 1px solid rgba(0,0,0,.125);
+    border-right: 1px solid rgba(0,0,0,.125);
+    height: 60px;
+}
+
+.Cardbtn
+{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.CardShadow
+{
+  box-shadow: 5px 12px 15px -15px lightgray;
+} 
+
+.reference {
+    height: 600px;
+    background-image: url("images/Snow-Background.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.refer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.nameRefer {
+    font-size: 24px;
+}
+
+.referPara {
+    font-size: 20px;
+}
+
+.quote1 {
+    font-size: 32px;
+}
+
+.contact {
+    background-image: url("images/Snow-Background.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contactCon {
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.blog>.card {
+    border: none;
+}
+
+.avatar1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+/* .Cardbtn {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+
+.cardblog {
+  
+    position: relative;
+}
+
+.blog {
+    padding-bottom: 30px;
+}
+
+.time {
+    font-size: 19px;
+}
+
+.btnradius {
+    border-radius: 25px !important;
+}
+
+.circle3 {
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    padding: 10px 21px;
+    align-self: center;
+    position: relative;
+}
+
+.icn2 {
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #000000;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 36px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-size: 17px;
+}
+
+@media screen and (max-width:992px) {
+    .spclCol {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .cardFooter {
+        margin-bottom: 40px;
+    }
+} 
+
+@media screen and (min-width: 325px) and (max-width: 355px) {
+    .Cardbtn {
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (min-width: 356px) and (max-width: 381px) {
+    .Cardbtn {
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (min-width: 476px) and (max-width: 767px) {
+    .Cardbtn {
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .Cardbtn {
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and  (max-width: 1200px) {
+    .Cardbtn {
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media screen and  (max-width: 992px) {
+    .Cardbtn {
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media screen and  (max-width: 768px) {
+    .Cardbtn {
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media screen and  (max-width: 460px) {
+    .Cardbtn {
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and  (max-width: 460px) {
+    .Cardbtn {
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and  (max-width: 328px) {
+    .Cardbtn {
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1110) {
+    .brandName {
+        padding-left: 65px !important;
+    }
+}
+
+@media screen and (max-width:1530px) {
+    .brandName {
+        padding-left: 250px !important;
+    }
+}
+
+@media screen and (max-width:1188px) {
+    .brandName {
+        padding-left: 120px !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .brandName {
+        padding-left: 30px !important;
+    }
+}
+
+@media screen and (min-width: 1182px) and (max-width: 1622px) {
+    .brandName {
+        padding-left: 80px !important;
+    }
+}
+
+@media(max-width: 1920px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: black !important;
+    }
+}
+
+@media(max-width: 992px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: white !important;
+        background-color: black;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .aboutImg {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:427px) {
+    .aboutImg {
+        word-break: break-word;
+    }
+}
+
+/* transitions left */
+
+.transitionAboutMe {
+    position: relative;
+    display: inline-block;
+}
+
+.transitionAboutMe:after {
+    position: absolute;
+    left: 0;
+    content: '';
+    height: 3px;
+    background: #007bff;
+    transition: all 0.5s linear;
+    bottom: 10px;
+    width: 120px;
+}
+
+/* trasition middle */
+
+.transitionMiddle {
+    position: relative;
+}
+
+.transitionMiddle:after {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    content: '';
+    height: 4px;
+    background: #007bff;
+    transition: all 0.5s linear;
+    width: 0;
+    bottom: 0px;
+    width: 35px;
+}
+
+/* 
+.transitionLink {
+    text-decoration: none;
+    position: relative;
+
+  }
+  .transitionLink:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    border-bottom: 4px solid black;
+    transition: 0.4s;
+  }
+  .transitionLink:hover:after {
+    width: 100%;
+  } */
+
+
+
+.transitionLink1 {
+    position: relative;
+    text-decoration: none;
+}
+
+.transitionLink1:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    transition:0.4s;
+}
+.transitionLink1:hover:after {
+
+    width: 100%;
+    border: 2px solid black;
+}

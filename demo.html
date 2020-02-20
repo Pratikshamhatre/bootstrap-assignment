@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .slide-left-right {
+            text-decoration: none;
+            display: inline-block;
+   
+            color: black;
+        }
+
+        /* add a empty string after the elment with class .slide-left-right */
+        .slide-left-right:after {
+            content: '';
+            display: block;
+            height: 3px;
+            width: 100px;
+      
+            background: transparent;
+            transition: width .5s ease, background-color .5s ease;
+            /* .5 seonds for changes to the width and background-color */
+            -webkit-transition: width .5s ease, background-color .5s ease;
+            /* Chrome and Safari */
+            -moz-transition: width .5s ease, background-color .5s ease;
+            /* FireFox */
+        }
+
+        /* Change the width and background on hover, aka sliding out */
+        .slide-left-right:hover:after {
+            width: 100%;
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1><a href="#" class="slide-left-right">Sliding from left to right</a></h1>
+    <h1><a href="#" class="slide-right-left">Sliding from left to right</a></h1>
+    <h1><a href="#" class="slide-center-out">Sliding from center to left and right sides</a></h1>
+    <h1><a href="#" class="slide-in-out">Sliding in from left and sliding out to the right</a></h1>
+</body>
+
+</html>
